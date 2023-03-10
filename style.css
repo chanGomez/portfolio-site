@@ -1,0 +1,35 @@
+header {
+    background: #2a2c2e;
+    color: #ececec;
+    padding: 0.5rem 15%;
+    text-align: center;
+    display: grid;
+    grid-template-columns:1fr;
+    margin: -10px;
+  }
+  
+  
+  nav ul {
+    padding: 15px 15px;
+    display: flex;
+
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+  }
+  
+  nav a {
+    color: #ececec;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+  }
+  
+  nav a:hover {
+    color: #4857de;
+    transition: 0.3s;
+  }
+  
