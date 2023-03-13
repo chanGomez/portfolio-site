@@ -1,3 +1,7 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: solid 1px red; */
+}
 header {
     background: #2a2c2e;
     color: #ececec;
@@ -12,6 +16,7 @@ header {
   nav ul {
     padding: 15px 15px;
     display: flex;
+    justify-content: flex-end;
 
   }
   
@@ -31,5 +36,41 @@ header {
   nav a:hover {
     color: #4857de;
     transition: 0.3s;
+  }
+
+  .bio-image{
+    padding-top: 130px;
+    display: flex;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+
+    
+  }
+  .bio-image img{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+
+  }
+  .bio-image p{
+    padding-top: 60px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 500px;
+  }
+
+  footer{
+    background: #2a2c2e;
+    color: #ececec;
+    /* padding: 0.5rem 15%; */
+    text-align: center;
+    display: grid;
+    grid-template-columns:1fr;
+    height: 100px;
+    width: 100%;
   }
   
