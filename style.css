@@ -2,8 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border: solid 1px red; */
 }
+
+/* Navbar styles */
 header {
-    background: #2a2c2e;
+    background: #010817;
     color: #ececec;
     padding: 0.5rem 15%;
     text-align: center;
@@ -34,12 +36,37 @@ header {
   }
   
   nav a:hover {
-    color: #4857de;
+    color: #2740ff;
     transition: 0.3s;
   }
 
+/* Home page style here*/
+
+body{
+  height: 100%;
+  background-size: cover; 
+  background-color: #4857de;
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  
+
+}
+
+
+
+
+/* About page style here*/
+
+.bio-image h1{
+  color: aliceblue;
+}
+
+.bio-paragraph{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
   .bio-image{
-    padding-top: 130px;
+    padding-top: 100px;
     display: flex;
     grid-template-columns:1fr 1fr;
     justify-content: center;
@@ -50,8 +77,10 @@ header {
     display: flex;
     justify-content: flex-end;
     padding-top: 20px;
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
   }
   .bio-image p{
@@ -63,14 +92,21 @@ header {
     height: 500px;
   }
 
+
+  /* Footer styles here */
+
   footer{
-    background: #2a2c2e;
+    background: #010817;
     color: #ececec;
-    /* padding: 0.5rem 15%; */
     text-align: center;
     display: grid;
     grid-template-columns:1fr;
     height: 100px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: -10px;
+    
+
   }
   
